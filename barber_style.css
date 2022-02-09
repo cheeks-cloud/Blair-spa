@@ -1,4 +1,4 @@
- *{
+  *{
     margin: 0;
     padding: o;
     box-sizing: border-box;
@@ -28,7 +28,7 @@ nav .logo a span{
     background-color: rgba(250, 0, 255, 0.5);
 }
 
-.first{
+/*.first{
     background-image:url('./images/page-header.jpg');
     height: 600px;
 }
@@ -176,4 +176,4 @@ margin-top: 90px;
 }
 footer{
     background-color: black;
-} 
+}  */
