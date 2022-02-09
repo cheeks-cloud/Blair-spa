@@ -28,7 +28,7 @@ nav .logo a span{
     background-color: rgba(250, 0, 255, 0.5);
 }
 
-/*.first{
+.first{
     background-image:url('./images/page-header.jpg');
     height: 600px;
 }
@@ -71,6 +71,7 @@ nav .logo a span{
     margin-top: 40px;
 
 }
+/*git 
 #alone{
     position:absolute;
     margin-left: 45%;
