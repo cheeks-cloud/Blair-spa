@@ -44,24 +44,26 @@ nav .logo a span{
 }
 .second{
     background-color:#FECAFF;
-    background-image: url("./images/about.jpg" );
-    background-repeat: no-repeat;
-    margin-left: 150px;
+    /* background-image: url("./images/about.jpg" ); */
+    /* background-repeat: no-repeat;
+    margin-left: 150px; */
 }
-#read{
-    /* position: absolute; */
+.second img{
+    float: left;
+}
+ #read{
+ position: absolute; 
     position: relative;
-    left: 60%;    /* position: absolute; */
-    width: 150px;
+    left: 18%;   
+     width: 150px;
     height: 10px;
-    transform: translateY (-50%);
-}
-
+    transform: translateY (-50%); 
+} 
 .second h2{
     color: #FA00FF;
 }
 .second p{
-                              /*ask on this */
+                            /*ask on this */
 }
 .second button {
     padding: 30px;
@@ -71,7 +73,7 @@ nav .logo a span{
     margin-top: 40px;
 
 }
-/*git 
+/*
 #alone{
     position:absolute;
     margin-left: 45%;
@@ -82,7 +84,7 @@ nav .logo a span{
     padding: 30px;
 }
 .third{
-    /* background-color: #261818; */
+    /* background-color: #261818; 
     background-color: whitesmoke;
     color:black;
     margin-top: 100px;
