@@ -40,14 +40,13 @@ nav .logo a span{
 .form{
     border: 2px solid #261818;
     height: 700px;
-    width: 45%;
+    width: 30%;
     position: relative;
     margin: auto;
     text-align: center;
     color: white;
     background-color: #261818;
     margin-top: 20px;
-    
 }
 
 .login-form{
@@ -69,25 +68,35 @@ nav .logo a span{
     margin-top: 40px;
     margin-bottom: 50px;
     width: 40%;
-    height: 55px;
+    height: 43px;
     border-radius: 10px;
     border-color: transparent;
     background-color: #EB79FC;
     position: relative;
-    /*right: -110px;*/
+    font-size: 18px;
+    left: 85px;
+}
+
+#loginbtn:hover{
+    background-color: purple;
+    color: white;
 }
 
 .uname label, .pwd label{
-    margin-right: 40px;
-    font-size: 23px;
+    margin-right: 20px;
+    font-size: 18px;
 }
 
 input[type="text"], input[type="password"]{
-    font-size: 24px;
+    /*font-size: 20px;*/
+    font-size: 18px;
     border: 2px solid #EB79FC;
     background-color: transparent;
-    margin: 10px auto;
+    margin: 5px auto;
     padding: 10px 10px;
+    color: white;
+    width: 40%;
+    height: 42px;
 }
 
 #forgot {
