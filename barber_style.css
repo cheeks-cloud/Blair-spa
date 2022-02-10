@@ -3,6 +3,7 @@
     padding: o;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+
  }
 
 nav .logo a{
@@ -27,6 +28,10 @@ nav .logo a span{
 .btn-outline-success:hover{
     background-color: rgba(250, 0, 255, 0.5);
 }
+button.navbar-toggler {
+    background-color: white;
+
+}
 
 .first{
     background-image:url('./images/page-header.jpg');
@@ -35,45 +40,41 @@ nav .logo a span{
 .first h2{
     text-align: center;
     color: white;
-    margin-top: 100PX;
+    margin-top: 70px;
+    font-weight: bolder;
+    
 }
 .first h3{
     color: #FA00FF;
      text-align: center;   /* ask on this */
+     position: relative;
+     top: 50%;
+     font-weight: bolder;
   
 }
 .second{
-    background-color:#FECAFF;
-    /* background-image: url("./images/about.jpg" ); */
-    /* background-repeat: no-repeat;
-    margin-left: 150px; */
+   background-color: whitesmoke;
+
 }
 .second img{
     float: left;
+    margin-left: 20%;
+    filter: contrast(80%);
 }
- #read{
- position: absolute; 
-    position: relative;
-    left: 18%;   
-     width: 150px;
-    height: 10px;
-    transform: translateY (-50%); 
-} 
+
 .second h2{
     color: #FA00FF;
 }
-.second p{
-                            /*ask on this */
-}
+
 .second button {
-    padding: 30px;
-    height: 20%;
-    width: 30%;
+    padding: 20px;   
+    width: 10%;
     border: 2px solid #FA00FF;
-    margin-top: 40px;
+    margin-top: 10px;
+    color: #FA00FF;
 
 }
-/*
+
 #alone{
     position:absolute;
     margin-left: 45%;
@@ -82,12 +83,14 @@ nav .logo a span{
     background-color: black;
     color: white;
     padding: 30px;
+    width:280px;
+    margin-top: 20px;
 }
 .third{
-    /* background-color: #261818; 
-    background-color: whitesmoke;
+    background-color:#FECAFF;;
     color:black;
-    margin-top: 100px;
+    margin-top: 90px;
+    
 }
 .third1{
     display: flex;
@@ -109,12 +112,12 @@ nav .logo a span{
     justify-content: space-around;
 }
 .third1 div{
-/* border: 2px solid black; */
+
     text-align: center;
     height: auto;
     width: 190px;
     padding: 20px;
-    /* background-color: #FECAFF; */
+    
 }
 
 .third2 div{
@@ -122,61 +125,72 @@ nav .logo a span{
     height: auto;
     width: 190px;
     padding: 20px;
-    /* background-color: #FECAFF; */
+   
 }
-
 
 .third3 div{
     text-align: center;
     height: auto;
     width: 190px;
     padding: 20px;
-    /* background-color: #FECAFF; */
+   
 }
 
-
 .fourth{
-  background-color:#FECAFF;
+  background-color:whitesmoke;
   text-align: center;
+  
 }
 .fourth img{
     border-radius: 50%;
-    padding: 20px;
+    border: 1px solid black;
+    margin-left: 30px;
 }
 
-.fifth{
+/*.fifth{
     background-image: url('./images/rodney-manu-44BZHA2wXUM-unsplash.jpg');
-    background-size:100% 100%;
-    /* height: 70vh; */
+    background-size:cover;
+    background-position: center;
+    height: 50vh;
     background-repeat: no-repeat;
     color: white;
     text-align: center;
 }
 .fifth p{
-  /*ask on this*/
+  position: relative;
+  top: 30%;
+
+} 
+.lastie{
+    background-color:#261818;
+    color: white;
+    display: block;
 }
-.fifth button{
-background-color: #FA00FF;
-padding: 20px;
-position: relative;
-margin-top: 90px;
-}
+
 .sixth{
     background-color: #FECAFF;
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
 }
+
 .sixth img{
     border-radius: 50%;
     padding: 10px;
 }
 .sixth div{
-    border: 2px solid black;
-    padding: 20px;
-    background-color: #261818;
+    padding: 30px;
     text-align: center;
     color: white;
 }
+.col-md-3{
+    background-color: #261818;
+    border: 2px solid pink;
+    
+}
+.col-md-3 img{
+    width: 100%;
+}
 footer{
     background-color: black;
-}  */
+}  
