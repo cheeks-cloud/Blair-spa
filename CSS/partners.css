@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+} 
+
+nav .logo a{
+    color: white !important;
+    font-family: 'Recursive', sans-serif;
+    font-style: 800;
+    font-size: 2rem;
+}
+span{
+    color: #FA00FF;
+    font-family: 'Recursive', sans-serif;
+}
+#list a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.05rem;
+}
+#navbarText button{
+    color: #FA00FF !important;
+    border: 1px solid #FA00FF;
+    width: 7rem;
+}
+#navbarText button:hover{
+    color: #212529 !important;
+    background-color: #FA00FF;
+}
+.second p {
+    text-align: center;
+    background-color: #FECAFF;
+}
+
+.container-fluid py-4 contactInfo{
+    padding: 10px;
+}
+#rust{
+    padding: 10px;
+    width: 20%;
+    height: 26%;
+    text-align: center;
+    margin-left: 39%;
+}
+
+.first{
+    background-image: url("../images/partners.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+.first h2,p{
+    position: relative;
+    text-align: center;
+    /* margin-top: 4%; */
+}
+.second{
+    background-color: #261818;
+}
+.second img{
+    width: 200px;
+}
+.second1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 10px 20px;
+}
+.second2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 10px 20px;
+}
+
+.second3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 10px 20px;
+}
+
+
+footer, footer a{
+    font-size: 0.8em;
+    text-decoration: none;
+    color: black;
+}
+.socials a{
+    padding: 0 10px;
+    font-size: 1em;
+}
+.socials a:hover{
+    color: #FA00FF;
+    font-size: 1.2em;
+}
+@media screen and (max-width:768px) {
+    .contactInfo div{
+        text-align: center;
+    }
+    .links ul{
+        padding-left: 5px;
+    }
+}
+
+.contactInfo{
+    background-color: #FECAFF;
+    color:black;
+}
+.links ul{
+    padding-left: 15px;
+}
+.links ul li{
+    list-style: none;
+    font-size: 0.8em;
+}
+.links ul li a{
+    color: black;
+    text-decoration: none;
+}
+.get-touch p a{
+    color: #FECAFF;
+    text-decoration: none;
+}
+.contactInfo h5{
+    color: #FA00FF;
+}
+.contactInfo p{
+    font-size: 0.8em;
+}
+.fab, .fas{
+    font-size: 20px;
+    color: white;
+}
+.fa-whatsapp{
+    color: greenyellow;
+}
+.fa-envelope{
+    color: skyblue;
+    background-color: #FA00FF;
+}
+footer, footer a{
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.socials a{
+    padding: 0 10px;
+    font-size: 1em;
+}
+.socials a:hover{
+    color: #FA00FF;
+    font-size: 1.2em;
+}
+@media screen and (max-width:768px) {
+    .contactInfo div{
+        text-align: center;
+    }
+    .links ul{
+        padding-left: 5px;
+    }
+}
