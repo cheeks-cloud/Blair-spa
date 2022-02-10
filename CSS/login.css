@@ -109,3 +109,10 @@ input[type="text"], input[type="password"]{
     position: relative;
     left: 60px;
 }*/
+
+@media only screen and (max-width: 1440px){
+    .form{
+        width: 40%;
+        
+    }
+}
