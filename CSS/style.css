@@ -21,14 +21,14 @@ span{
     font-size: 1.05rem;
 }
 
-#navbarText form button{
+#navbarText form button a{
     color: #fa00ff !important;
     border: 1px solid #fa00ff;
     width: 7rem;
     font-weight: 500;
 }
 
-#navbarText button:hover{
+#navbarText button a:hover{
     color: #212529 !important;
     background-color: #fa00ff;
 }
