@@ -26,6 +26,12 @@ nav .logo a span{
     border: 1px solid #FA00FF;
     width: 8rem;
 }
+
+#navbarText button:hover{
+    color: #212529 !important;
+    background-color: #fa00ff;
+}
+
 .btn-outline-success:hover{
     background-color: rgba(250, 0, 255, 0.5);
 }
