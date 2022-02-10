@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: o;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav .logo a{
+    color: white !important;
+    font-family: 'Recursive', sans-serif;
+    font-style: 800;
+    font-size: 2rem;
+}
+
+span{
+    color: #fa00ff;
+    font-family: 'Recursive', sans-serif;
+}
+
+#list a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.05rem;
+}
+
+#navbarText form button{
+    color: #fa00ff !important;
+    border: 1px solid #fa00ff;
+    width: 7rem;
+    font-weight: 500;
+}
+
+#navbarText button:hover{
+    color: #212529 !important;
+    background-color: #fa00ff;
+}
+
+button.navbar-toggler{
+    background-color: #ffffff;
+}
+
+.one{
+    background-color: #fecaff;
+}
+
+.one p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #261818;
+}
+
+.one a button{
+    background-color: #fa00ff;
+    color: #261818;
+    border: 2px solid #fa00ff;
+    width: 10rem;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.one a button:hover, .one button:focus{
+    color: #fa00ff !important;
+    background-color: #261818;
+    border: 2px solid #fa00ff;
+    box-shadow: none;
+}
+
+.one a button:active{
+    box-shadow: #fa00ff;
+}
+img.img-fluid{
+    min-height: 500px !important;
+    width: auto;
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+.two {
+    background-color: #261818;
+}
+
+.two p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #fecaff;
+}
+
+.two a button{
+    background-color: #fa00ff;
+    color: #261818;
+    border: 2px solid #fa00ff;
+    width: 10rem;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.two a button:hover, .two button:focus{
+    color: #fa00ff !important;
+    background-color: #261818;
+    border: 2px solid #fa00ff;
+    box-shadow: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.second p{
+    color: #fecaff;;
+}
+
+.three {
+    background-color: #fecaff;
+    font-family: 'Overlock', 'Poppins', cursive !important;
+    color: #261818;
+}
+
+.four{
+    background-color: #261818;
+    color: white;
+}
+
+.four button{
+    border: 2px solid #fa00ff;
+    color: #fa00ff;
+    width: 11rem;
+    height: 3rem;
+}
+
+.four button:hover{
+    color: #261818 !important;
+    background-color: #fa00ff;
+    border: 2px solid #261818;
+}
+
+.five{
+    background-color: #fecaff;
+}
+
+.five form{
+    min-width: 40%;
+    max-width: 50%;
+    height: auto;
+}
+
+.five button{
+    background-color: black;
+    color: #fa00ff;
+    width: 30%;
+    height: auto;
+    align-items: center;
+}
+
+.five button:hover{
+    color: #000 !important;
+    background-color: #fa00ff;
+    border: transparent;
+    font-weight: 500;
+}
+
+.five button:focus{
+    color: #000 !important;
+    background-color: #fa00ff;
+    border: transparent;
+    box-shadow: none;
+    font-weight: 500;
+} 
+
+.five form input{
+    background-color: #fecaff;
+    border: 1px solid black;
+}
+
+.five form textarea{
+    background-color: #fecaff;
+    border: 1px solid black;
+}
+
+.six {
+    background-color: #261818;
+}
+
+.sixth h4{
+    text-align: center;
+    color: #fecaff;
+}
+
+.sixth ul li{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    padding-right: 2rem;
+    color: #fecaff;
+}
+
+.socials a{
+   padding: 0 0.625rem !important;
+}
+
+footer{
+    color: #ffffff;
+}
+.socials a:hover{
+    color: #fa00ff !important;
+    font-size: 1.2em;
+}
