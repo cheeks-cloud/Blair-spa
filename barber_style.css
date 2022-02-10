@@ -147,7 +147,7 @@ button.navbar-toggler {
     margin-left: 30px;
 }
 
-/*.fifth{
+.fifth{
     background-image: url('./images/rodney-manu-44BZHA2wXUM-unsplash.jpg');
     background-size:cover;
     background-position: center;
@@ -161,7 +161,7 @@ button.navbar-toggler {
   top: 30%;
 
 } 
-.lastie{
+/*.lastie{
     background-color:#261818;
     color: white;
     display: block;
