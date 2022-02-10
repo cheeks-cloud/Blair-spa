@@ -29,6 +29,10 @@ nav .logo a span{
 .btn-outline-success:hover{
     background-color: rgba(250, 0, 255, 0.5);
 }
+
+button.navbar-toggler{
+    background-color: #ffffff;
+}
 /*End Navbar*/
 
 .page-wrapper{
