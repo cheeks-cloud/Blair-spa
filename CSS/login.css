@@ -24,3 +24,35 @@
     margin-top: 20px;
     
 }
+
+.login-form{
+    align-items: center;
+}
+
+.login-form h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.uname, .pwd, #loginbtn{
+    align-items: center;
+    margin-top: 30px;
+}
+
+#loginbtn{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 40%;
+    height: 55px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #EB79FC;
+    position: relative;
+    /*right: -110px;*/
+}
+
+.uname label, .pwd label{
+    margin-right: 40px;
+    font-size: 23px;
+}
