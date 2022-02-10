@@ -136,3 +136,33 @@ input[type="text"], input[type="password"]{
         
     }
 }
+
+@media (max-width:605px) and (min-width: 325px){
+    .form{
+        width: 100%;
+    }
+    .uname, .pwd, #loginbtn{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    input[type="text"], input[type="password"]{
+        /*font-size: 20px;*/
+        font-size: 18px;
+        border: 2px solid #EB79FC;
+        background-color: transparent;
+        margin: 5px auto;
+        margin-top: 10px;
+        padding: 10px 10px;
+        color: white;
+        width: 70%;
+        height: 42px;
+    }
+
+    #loginbtn{
+        width: 70%;
+        align-items: center;
+        left: 15%;
+    }    
+}
