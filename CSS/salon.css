@@ -39,6 +39,7 @@ span{
     background-color: rgba(250, 0, 255, 0.5);
 }
 .image-hold{
+    width: 100%;
     position: relative;
     height: 100vh;
     margin-bottom: 2rem;
