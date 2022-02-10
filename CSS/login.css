@@ -56,3 +56,22 @@
     margin-right: 40px;
     font-size: 23px;
 }
+
+input[type="text"], input[type="password"]{
+    font-size: 24px;
+    border: 2px solid #EB79FC;
+    background-color: transparent;
+    margin: 10px auto;
+    padding: 10px 10px;
+}
+
+#forgot {
+    padding-bottom: 30px;
+    position: relative;
+    /*left: 10px;*/
+}
+
+/*#dont{
+    position: relative;
+    left: 60px;
+}*/
