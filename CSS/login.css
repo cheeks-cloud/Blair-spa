@@ -166,3 +166,11 @@ input[type="text"], input[type="password"]{
         left: 15%;
     }    
 }
+
+@media (min-width:325px) and (max-width:605px){
+    #loginbtn{
+        width: 70%;
+        align-items: center;
+        left: 15%;
+    }
+}
