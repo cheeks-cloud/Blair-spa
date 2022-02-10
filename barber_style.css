@@ -161,13 +161,13 @@ button.navbar-toggler {
   top: 30%;
 
 } 
-/*.lastie{
+.lastie{
     background-color:#261818;
     color: white;
     display: block;
 }
 
-.sixth{
+/*.sixth{
     background-color: #FECAFF;
     display: flex;
     justify-content: space-around;
