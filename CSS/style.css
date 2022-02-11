@@ -15,6 +15,15 @@ span{
     color: #fa00ff;
     font-family: 'Recursive', sans-serif;
 }
+.butn{
+    color:#fa00ff;
+    border: 1px solid #fa00ff;
+    width:7rem;
+}
+    
+.butn a{
+    text-decoration:none;
+    }
 
 #list a{
     font-family: 'Poppins', sans-serif;
