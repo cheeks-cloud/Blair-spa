@@ -1,0 +1,263 @@
+  *{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+ }
+
+nav .logo a{
+    color: white !important;
+    font-family: 'Recursive', sans-serif;
+    font-style: 800;
+    font-size: 2rem;
+}
+nav .logo a span{
+    color: #FA00FF;
+    font-family: 'Recursive', sans-serif;
+}
+#list a{
+    font-family: 'Poppins', sans-serif;
+     font-size: 1.05rem;
+}
+#navbarText .bttn button{
+    color: #FA00FF !important;
+    border: 1px solid #FA00FF;
+    width: 8rem;
+}
+#navbarText .bttn button:hover{
+    color: #212539 !important;
+    background-color: #FA00FF;
+}
+.btn-outline-success:hover{
+    background-color: rgba(250, 0, 255, 0.5);
+}
+button.navbar-toggler {
+    background-color: white;
+
+}
+
+.first{
+    background-image:url('../images/page-header.jpg');
+    height: 600px;
+}
+.first h2{
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+    font-weight: bolder;
+    
+}
+.first h3{
+    color: #FA00FF;
+     text-align: center;   /* ask on this */
+     position: relative;
+     top: 50%;
+     font-weight: bolder;
+  
+}
+.second{
+   background-color: whitesmoke;
+
+}
+.second img{
+    float: left;
+    margin-left: 20%;
+    filter: contrast(80%);
+}
+
+.second h2{
+    color: #FA00FF;
+}
+
+.second button {
+    padding: 20px;   
+    width: 10%;
+    border: 2px solid #FA00FF;
+    margin-top: 10px;
+    color: #FA00FF;
+
+}
+
+#alone{
+    position:absolute;
+    margin-left: 45%;
+}
+#alone button{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    width:280px;
+    margin-top: 20px;
+}
+.third{
+    background-color:#FECAFF;;
+    color:black;
+    margin-top: 90px;
+    
+}
+.third1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 10px 20px;
+    
+}
+.third2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.third3{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.third1 div{
+
+    text-align: center;
+    height: auto;
+    width: 190px;
+    padding: 20px;
+    
+}
+
+.third2 div{
+    text-align: center;
+    height: auto;
+    width: 190px;
+    padding: 20px;
+   
+}
+
+.third3 div{
+    text-align: center;
+    height: auto;
+    width: 190px;
+    padding: 20px;
+   
+}
+
+.fourth{
+  background-color:whitesmoke;
+  text-align: center;
+  
+}
+.fourth img{
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 30px;
+}
+
+.fifth{
+    background-image: url('../images/rodney-manu-44BZHA2wXUM-unsplash.jpg');
+    background-size:cover;
+    background-position: center;
+    height: 50vh;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+}
+.fifth p{
+  position: relative;
+  top: 30%;
+
+} 
+.lastie{
+    background-color:#261818;
+    color: white;
+    display: block;
+}
+
+.sixth{
+    background-color: #FECAFF;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.sixth img{
+    border-radius: 50%;
+    padding: 10px;
+}
+.sixth div{
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+.serv{
+    background-color: #261818;
+    border: 2px solid pink;
+}
+.col-md-3 img{
+    width: 100%;
+}
+.contactInfo{
+    background-color: #261818;
+    color: #FFFFFF;
+}
+.links ul{
+    padding-left: 15px;
+}
+.links ul li{
+    list-style: none;
+    font-size: 0.8em;
+}
+.links ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.get-touch p a{
+    color: #FECAFF;
+    text-decoration: none;
+}
+.contactInfo h5{
+    color: #FA00FF;
+}
+.contactInfo p{
+    font-size: 0.8em;
+}
+.fab, .fas{
+    font-size: 20px;
+    color: white;
+}
+.fa-whatsapp{
+    color: greenyellow;
+}
+.fa-envelope{
+    color: skyblue;
+    background-color: #FA00FF;
+} 
+footer, footer a{
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.socials a{
+    padding: 0 10px;
+    font-size: 1em;
+}
+.socials a:hover{
+    color: #FA00FF;
+    font-size: 1.2em;
+}
+@media screen and (max-width:768px) {
+    .contactInfo div{
+        text-align: center;
+    }
+    .links ul{
+        padding-left: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+

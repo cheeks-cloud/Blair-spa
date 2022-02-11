@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+     list-style: none;
+}
+body{
+    overflow-x: hidden;
+}
+nav .logo a{
+    color: white !important;
+    font-family: 'Recursive', sans-serif;
+    font-style: 800;
+    font-size: 1.5rem;
+}
+button.navbar-toggler{
+    background-color: #ffffff !important;
+}
+
+#navbarText button:hover{
+    color: #212529 !important;
+    background-color: #FA00FF;
+}
+span{
+    color: #FA00FF;
+    font-family: 'Recursive', sans-serif;
+}
+#list a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.05rem;
+}
+#navbarText button{
+    color: #FA00FF !important;
+    border: 1px solid #FA00FF;
+    width: 8rem;
+}
+.btn-outline-success:hover{
+    background-color: rgba(250, 0, 255, 0.5);
+}
+.image-hold{
+    position: relative;
+    height: 100vh;
+    margin-bottom: 2rem;
+  
+ 
+}
+.video-hold{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.bgtext{
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    width: 60%;
+    z-index: 1;
+}
+.service hr{
+    color: #FA00FF;
+   height: 5px;
+   width: 10%;
+   margin: auto;
+}
+.service h2{
+    font-weight: bold;
+}
+.card-hair{
+    background-color: #fecaff;
+}
+.card-body p{
+    font-size: 0.8em;
+}
+.nails hr{
+    color: #FA00FF;
+   height: 5px;
+   width: 10%;
+   margin: auto;
+}
+.hair hr{
+    color: #FA00FF;
+   height: 5px;
+   width: 12%;
+   margin: auto;
+}
+.card-nails{
+    background-color:#261818;
+    color: #ffffff;
+}
+.btn-primary{
+    background-color: #FA00FF;
+    color: #000;
+}
+.col-md-3 img{
+    margin: 10px;
+}
+.choose{
+    background-color: #fecaff;
+    height: 50vh;
+}
+.contactInfo{
+    background-color: #261818;
+    color: #ffffff;
+}
+.links ul{
+    padding-left: 15px;
+}
+.links ul li{
+    list-style: none;
+    font-size: 0.8em;
+    
+}
+.links ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+.get-touch p a{
+    color: #fecaff;
+    text-decoration: none;
+}
+.contactInfo h5{
+    color: #FA00FF;
+}
+.contactInfo p{
+    font-size: 0.8em;
+}
+.fab, .fas{
+    font-size: 20px;
+    color: white;
+}
+.fa-whatsapp{
+    color: greenyellow;
+}
+.fa-envelope{
+    color: skyblue;
+    background-color: #FA00FF;
+}
+footer, footer a{
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #ffffff;
+}
+.socials a{
+    padding: 0 10px;
+    font-size: 1em;
+}
+.socials a:hover{
+    color: #FA00FF;
+    font-size: 1.2em;
+}
+@media screen and (max-width:768px) {
+    .contactInfo div{
+        text-align: center;
+        
+    }
+    .links ul{
+        padding-left: 5px;
+    }
+}

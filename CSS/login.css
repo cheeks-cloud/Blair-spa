@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Navbar*/
+nav .logo a{
+    color: white !important;
+    font-family: 'Recursive', sans-serif;
+    font-style: 800;
+    font-size: 2rem;
+}
+nav .logo a span{
+    color: #FA00FF;
+    font-family: 'Recursive', sans-serif;
+}
+#list a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.05rem;
+}
+#navbarText .bttn button{
+    color: #FA00FF !important;
+    border: 1px solid #FA00FF;
+    width: 8rem;
+}
+
+#navbarText button:hover{
+    color: #212529 !important;
+    background-color: #fa00ff;
+}
+
+.btn-outline-success:hover{
+    background-color: rgba(250, 0, 255, 0.5);
+}
+
+button.navbar-toggler{
+    background-color: #ffffff;
+}
+/*End Navbar*/
+
+.page-wrapper{
+    background-image: url("../images/helb.png");
+    background-size: contain;
+    height: 100vh;
+}
+
+.form{
+    border: 2px solid #261818;
+    height: 700px;
+    width: 30%;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color: #261818;
+    margin-top: 20px;
+}
+
+.login-form{
+    align-items: center;
+}
+
+.login-form h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.uname, .pwd, #loginbtn{
+    align-items: center;
+    margin-top: 30px;
+}
+
+#loginbtn{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 40%;
+    height: 43px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #EB79FC;
+    position: relative;
+    font-size: 18px;
+    left: 85px;
+}
+
+#loginbtn:hover{
+    background-color: purple;
+    color: white;
+}
+
+.uname label, .pwd label{
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+input[type="text"], input[type="password"]{
+    /*font-size: 20px;*/
+    font-size: 18px;
+    border: 2px solid #EB79FC;
+    background-color: transparent;
+    margin: 5px auto;
+    padding: 10px 10px;
+    color: white;
+    width: 40%;
+    height: 42px;
+}
+
+#forgot {
+    padding-bottom: 30px;
+    position: relative;
+    /*left: 10px;*/
+}
+
+/*#dont{
+    position: relative;
+    left: 60px;
+}*/
+
+@media only screen and (max-width: 1440px){
+    .form{
+        width: 40%;
+        
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .form{
+        width: 50%;  
+    }
+}
+
+@media (max-width: 768px){
+    .form{
+        width: 80%;
+        
+    }
+}
+
+@media only screen and (max-width: 606px){
+    .form{
+        width: 100%;
+        
+    }
+}
+
+@media (max-width:605px) and (min-width: 325px){
+    .form{
+        width: 100%;
+    }
+    .uname, .pwd, #loginbtn{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    input[type="text"], input[type="password"]{
+        /*font-size: 20px;*/
+        font-size: 18px;
+        border: 2px solid #EB79FC;
+        background-color: transparent;
+        margin: 5px auto;
+        margin-top: 10px;
+        padding: 10px 10px;
+        color: white;
+        width: 70%;
+        height: 42px;
+    }
+
+    #loginbtn{
+        width: 70%;
+        align-items: center;
+        left: 15%;
+    }    
+}
+
+@media (min-width:325px) and (max-width:605px){
+    #loginbtn{
+        width: 70%;
+        align-items: center;
+        left: 15%;
+    }
+}
