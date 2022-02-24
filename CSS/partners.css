@@ -26,25 +26,13 @@ span{
     width: 7rem;
 }
 #navbarText button:hover{
-    color: #212529 !important;
+    color:#261818 !important;
     background-color: #FA00FF;
-}
-.second p {
-    text-align: center;
-    background-color: #FECAFF;
 }
 
 .container-fluid py-4 contactInfo{
     padding: 10px;
 }
-#rust{
-    padding: 10px;
-    width: 20%;
-    height: 26%;
-    text-align: center;
-    margin-left: 39%;
-}
-
 .first{
     background-image: url("../images/partners.jpg");
     height: 600px;
@@ -55,11 +43,23 @@ span{
 .first h2,p{
     position: relative;
     text-align: center;
-    /* margin-top: 4%; */
+    
+}
+#rust{
+    padding: 10px;
+    width: 20%;
+    height: 26%;
+    text-align: center;
+    margin-left: 39%;
 }
 .second{
     background-color: #261818;
 }
+.second p {
+    text-align: center;
+    background-color: #FECAFF;
+}
+
 .second img{
     width: 200px;
 }
@@ -99,14 +99,6 @@ footer, footer a{
 .socials a:hover{
     color: #FA00FF;
     font-size: 1.2em;
-}
-@media screen and (max-width:768px) {
-    .contactInfo div{
-        text-align: center;
-    }
-    .links ul{
-        padding-left: 5px;
-    }
 }
 
 .contactInfo{
@@ -165,4 +157,29 @@ footer, footer a{
     .links ul{
         padding-left: 5px;
     }
+    
+   
+}
+@media screen and (max-width:740px) {
+
+    .second1,.second2,.second3 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .first{
+        background-size: contain;
+        height: 200px;
+        padding: 20px;
+    }
+    #rust{
+        width:200px;
+        text-align: center;
+        margin-left: 70px;
+    
+    }.first p{
+        margin-top:110px;
+    }
+    
 }
