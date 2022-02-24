@@ -29,9 +29,6 @@ span{
     color:#261818 !important;
     background-color: #FA00FF;
 }
-#navbarText{
-    background-color: white;
-}
 
 .container-fluid py-4 contactInfo{
     padding: 10px;
@@ -163,7 +160,7 @@ footer, footer a{
     
    
 }
-@media screen and (min-width:360px) {
+@media screen and (max-width:740px) {
 
     .second1,.second2,.second3 {
         display: flex;
